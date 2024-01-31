@@ -6,7 +6,7 @@
         <availability>on_desktop</availability>
         <billable>false</billable>
         <can_cancel>false</can_cancel>
-        <category display_value="Can We Help You?">e15706fc0a0a0aa7007fc21e1ab70c2f</category>
+        <category display_value="Services">109f0438c6112276003ae8ac13e7009d</category>
         <checked_out/>
         <cost>0</cost>
         <custom_cart/>
@@ -21,7 +21,7 @@
         <group/>
         <hide_sp>false</hide_sp>
         <icon/>
-        <ignore_price>false</ignore_price>
+        <ignore_price>true</ignore_price>
         <image/>
         <location/>
         <mandatory_attachment>false</mandatory_attachment>
@@ -30,7 +30,7 @@
         <mobile_picture/>
         <mobile_picture_type>use_desktop_picture</mobile_picture_type>
         <model/>
-        <name>Volunteering Task Request</name>
+        <name>Task Request</name>
         <no_attachment_v2>false</no_attachment_v2>
         <no_cart>false</no_cart>
         <no_cart_v2>false</no_cart_v2>
@@ -41,7 +41,7 @@
         <no_quantity>false</no_quantity>
         <no_quantity_v2>false</no_quantity_v2>
         <no_search>false</no_search>
-        <no_wishlist_v2>false</no_wishlist_v2>
+        <no_wishlist_v2>true</no_wishlist_v2>
         <omit_price>false</omit_price>
         <order>0</order>
         <ordered_item_link/>
@@ -68,7 +68,7 @@
 * To access the variables, use `producer.var1` where var1 is the name of the variable
 * To access the Record Producer use `cat_item`
 */]]></save_script>
-        <sc_catalogs>8752afd953133300a8ed21fac2dc34ac,e0d08b13c3330100c8b837659bba8fb4</sc_catalogs>
+        <sc_catalogs>e0d08b13c3330100c8b837659bba8fb4</sc_catalogs>
         <sc_ic_item_staging/>
         <sc_ic_version/>
         <sc_template display_value="AES Record Producer">211f71ca73202010ae42d31ee2f6a785</sc_template>
@@ -87,14 +87,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-12-12 10:25:45</sys_created_on>
         <sys_id>140caef5470bf910f4d07d18c26d43c5</sys_id>
-        <sys_mod_count>3</sys_mod_count>
-        <sys_name>Volunteering Task Request</sys_name>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_name>Task Request</sys_name>
         <sys_package display_value="Volunteer's Club" source="x_1131805_volunt_0">c53a6e75470bf910f4d07d18c26d4346</sys_package>
         <sys_policy/>
         <sys_scope display_value="Volunteer's Club">c53a6e75470bf910f4d07d18c26d4346</sys_scope>
         <sys_update_name>sc_cat_item_producer_140caef5470bf910f4d07d18c26d43c5</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-12-12 10:27:48</sys_updated_on>
+        <sys_updated_on>2024-01-19 02:20:49</sys_updated_on>
         <table_name>x_1131805_volunt_0_volunteer_s_hub</table_name>
         <taxonomy_topic/>
         <template/>
@@ -102,6 +102,7 @@
         <type>item</type>
         <use_sc_layout>true</use_sc_layout>
         <vendor/>
+        <version>7</version>
         <view/>
         <visible_bundle>true</visible_bundle>
         <visible_guide>true</visible_guide>

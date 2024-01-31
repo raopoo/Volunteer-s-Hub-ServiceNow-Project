@@ -1,3 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element db_object_id="11fa6ab5470bf910f4d07d18c26d43f2" extends="task" label="Volunteer\'s hub" max_length="40" name="x_1131805_volunt_0_volunteer_s_hub" type="collection"/>
+    <element db_object_id="11fa6ab5470bf910f4d07d18c26d43f2" extends="task" label="Volunteer\'s hub" max_length="40" name="x_1131805_volunt_0_volunteer_s_hub" type="collection">
+        <element label="Address" max_length="40" name="address" type="string"/>
+        <element choice="1" label="Pickup vehicle size" max_length="40" name="pickup_vehicle_size" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Extra Large" sequence="0" value="Extra Large"/>
+                <element inactive_on_update="false" label="Large" sequence="1" value="Large"/>
+                <element inactive_on_update="false" label="Medium" sequence="2" value="Medium"/>
+                <element inactive_on_update="false" label="Small" sequence="3" value="Small"/>
+            </choice>
+        </element>
+    </element>
 </database>
