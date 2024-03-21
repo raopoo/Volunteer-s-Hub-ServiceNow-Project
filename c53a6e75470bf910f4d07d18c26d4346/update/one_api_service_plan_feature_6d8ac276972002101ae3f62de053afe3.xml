@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="one_api_service_plan_feature">
+    <one_api_service_plan_feature action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applicability_condition/>
+        <applicability_condition_table/>
+        <applicability_script><![CDATA[(function(featureInput, previousFeatureOutputs) {  
+	/* customize condition logic here, return true or false */  
+	return true;
+  })(featureInput, previousFeatureOutputs);]]></applicability_script>
+        <applicability_type>script</applicability_type>
+        <delay_output_processing>false</delay_output_processing>
+        <depends_on/>
+        <error_policy>continue_service_plan_execution</error_policy>
+        <feature display_value="1dbdf571fc387110f87736513ef7b2af">618a8276972002101ae3f62de053af97</feature>
+        <return_request>false</return_request>
+        <service_plan display_value="Recommendations-1dbdf571fc387110f87736513ef7b2af-txcvxt25">a18ac276972002101ae3f62de053afe1</service_plan>
+        <sys_class_name>one_api_service_plan_feature</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-28 00:07:36</sys_created_on>
+        <sys_id>6d8ac276972002101ae3f62de053afe3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Recommendations-1dbdf571fc387110f87736513ef7b2af-txcvxt25: 1dbdf571fc387110f87736513ef7b2af</sys_name>
+        <sys_package display_value="Volunteer's Club" source="x_1131805_volunt_0">c53a6e75470bf910f4d07d18c26d4346</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Volunteer's Club">c53a6e75470bf910f4d07d18c26d4346</sys_scope>
+        <sys_update_name>one_api_service_plan_feature_6d8ac276972002101ae3f62de053afe3</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-28 00:07:36</sys_updated_on>
+        <timeout_policy>continue_service_plan_execution</timeout_policy>
+        <timeout_sec>240</timeout_sec>
+    </one_api_service_plan_feature>
+</record_update>
